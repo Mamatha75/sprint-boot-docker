@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: spring-boot-dockers.jar
 
 steps:
 - script: echo Hello, world!
